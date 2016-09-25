@@ -5,6 +5,17 @@
     <meta charset="{$charset}" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="keywords" content="{if $filename eq "index"}datacenter,datacenters,virtual datacenter,virtual,data center,cloudstamps,infrapoint,cloudnode,cloudnodes{elseif $filename eq "contact"}infrapoint,cloudstamps,chris gatch,merritt willet{/if}" />
+	
+	<meta property="og:title" content="{if $kbarticle.title}{$kbarticle.title}{/if}" />
+	<meta property="og:type" content="article" />
+	<meta property="og:description" content="Infrapoint now offers enterprise virutal datacenter packages and the capability to build your own environment"/>
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="{$WEB_ROOT}">
+	<meta name="twitter:description" content="ATL Based Infrapoint now offers enterprise virutal datacenter packages (ie. CloudStamps) and the capability to build your own environment.">
+	
     <title>{if $kbarticle.title}{$kbarticle.title} - {/if}{$pagetitle} - {$companyname}</title>
 
     {include file="$template/includes/head.tpl"} {$headoutput}
@@ -12,8 +23,23 @@
 </head>
 
 <body>
-
+	
     {$headeroutput}
+
+<!--
+	<br />
+	<div>Using hidden</div>
+	<div class="hidden-sm hidden-md">hidden-sm hidden-md</div>
+	<div class="hidden-sm hidden-lg">hidden-sm hidden-lg</div>
+	<div class="hidden-md hidden-lg">hidden-md hidden-lg</div>
+	<br />
+	<div>Theoretical equivalent using visible</div>
+	<div class="visible-lg">hidden-sm hidden-md</div>
+	<div class="visible-md">hidden-sm hidden-lg</div>
+	<div class="visible-sm">hidden-md hidden-lg</div>
+	<br />
+-->
+
     <!-- Header -->
     <header>
         <div class="container">
@@ -42,7 +68,7 @@
                             </li>
                             <!-- Technology -->
                             <li>
-                                    <a id="dLabel-cu" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">About</a>
+                                    <a id="dLabel-cu" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Technology</a>
                             </li>
                             <!-- Partners -->
                             <li>

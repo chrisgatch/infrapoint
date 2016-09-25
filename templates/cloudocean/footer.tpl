@@ -22,19 +22,19 @@
                         <div class="methods">
                             <div class="method">
                                 <span class="fa fa-home"></span>
-                                <span>42 Nicholson Street Buffalo New York US 19865</span>
+                                <span>3101 Cobb Parkway, Atlanta, Georgia 30339</span>
                             </div>
                             <div class="method">
                                 <span class="fa fa-phone"></span>
-                                <span>+201112357755</span>
+                                <span>+1 (463) 276-468 [INFRAPOINT]</span>
                             </div>
                             <div class="method">
                                 <span class="fa fa-envelope"></span>
-                                <span>info@WHMCSdes.com</span>
+                                <span>cloudstamps@{$companyname}.com</span>
                             </div>
                             <div class="method">
                                 <span class="fa fa-calendar"></span>
-                                <span>Monday - Saturday : 8:00 Am - 18:00 Pm <br /> Friday : Closed</span>
+                                <span>Monday - Friday : 8:00 Am - 5:00 Pm <br /> Saturday : Closed<br /> Sunday : Closed</span>
                             </div>
                         </div>
                     </div>
@@ -102,9 +102,13 @@
                     <!-- Payment  -->
                     <div class="payment">
                         <h1>Payment</h1>
-                        <span class="fa fa-cc-visa"></span>
-                        <span class="fa fa-cc-mastercard"></span>
-                        <span class="fa fa-cc-paypal"></span>
+                        <span class="fa fa-cc-visa" title="Visa"></span>
+                        <span class="fa fa-cc-mastercard" title="Mastercard"></span>
+                        <span class="fa fa-cc-amex" title="American Express"></span>
+                        <span class="fa fa-cc-diners-club" title="Dinners Club"></span>
+                        <span class="fa fa-cc-discover" title="Discover"></span>
+                        <span class="fa fa-google-wallet" title="Google Wallet"></span>
+                        <span class="fa fa-cc-paypal" title="Paypal"></span>
                     </div>
                 </div>
             </div>

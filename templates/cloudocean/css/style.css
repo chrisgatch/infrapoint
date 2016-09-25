@@ -586,6 +586,7 @@ a.contact:hover {
 
 .fa.fa-support.hp-block,
 .fa.fa-money.hp-block,
+.fa.fa-users.hp-block,
 .fa.fa-gift.hp-block,
 .fa.fa-mobile-phone.hp-block {
     color: #ececec;
@@ -597,6 +598,7 @@ a.contact:hover {
 }
 
 .fa.fa-support:hover,
+.fa.fa-users:hover,
 .fa.fa-money:hover,
 .fa.fa-gift:hover,
 .fa.fa-mobile-phone:hover {
@@ -1218,8 +1220,12 @@ a.fa.fa-facebook {
 
 .fa.fa-cc-visa,
 .fa.fa-cc-paypal,
-.fa.fa-cc-mastercard {
-    font-size: 31px;
+.fa.fa-cc-mastercard,
+.fa.fa-cc-amex,
+.fa.fa-cc-diners-club,
+.fa.fa-cc-discover,
+.fa.fa-google-wallet {
+   font-size: 31px;
     margin: 20px 5px 20px 0;
     cursor: pointer;
 }
@@ -3376,7 +3382,6 @@ a.user-rep {
     font-size: 18px;
     font-weight: 700;
     text-align: center;
-    margin-top: ;
 }
 
 .custom > p {
@@ -3403,3 +3408,40 @@ p.tab-content {
 }
 
 /* End Terms */
+
+/* Customizations */
+.purpleline-r {
+  border-right: 10px solid purple;
+}
+
+.purpleline-l {
+  border-left: 10px solid purple;
+  position: relative;
+  right: 10px;
+}
+
+.parentcircle {
+  display: table;
+  margin: auto 40%;
+  background: none;
+}
+
+.middlecircle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.circle {
+  margin: auto;
+  border: solid 10px purple;
+  background: purple;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+}
+
+.circle > h1 {
+  margin: 20% 10%;
+  color: white;
+  z-index: 100;
+}

@@ -53,7 +53,7 @@
         <h2 class="title-section">Why you need a CloudStamp...</h2>
         <!--<h5 class="description-section">Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel.</h5>-->
         <!-- Tabs -->
-        <div class="col-lg-2 col-sm-12">
+        <div class="col-lg-2 col-sm-2">
             <!-- Nav tabs -->
             <ul class="custom-tabs custom-tabs-cs" role="tablist">
                 <li role="presentation" class="active-tab active left">
@@ -67,7 +67,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-lg-8 col-sm-12">
+        <div class="col-lg-8 col-sm-8">
             <div class="tab-content">
                 <div role="web-apps" class="tab-pane fade in active" id="recent">
                     <div class="grid">
@@ -202,7 +202,7 @@
                 </div>
             </div>
         </div>
-		<div class="col-lg-2 col-sm-12">
+		<div class="col-lg-2 col-sm-2">
             <!-- Nav tabs -->
             <ul class="custom-tabs custom-tabs-cs" role="tablist">
 				<li role="presentation" class="right">
@@ -221,52 +221,85 @@
         <!--<a href="portfolio.php" class="goto p">Go To Portfolio</a>-->
     </section>
 </div>
+
+<!-- Public vs. Private -->
+<div class="row">
+	<div class="col-lg-12 col-sm-12">
+		<div class="row jumbotron jumbotron-fluid">
+			<div class="hidden-lg">
+				<div class="clearfix"></div>
+				<div class="col-sm-4">
+					<h1 class="display-3">PUBLIC</h1>
+				</div>
+				<div class="col-sm-4">
+					<div class="parentcircle">
+						<div class="middlecircle">
+							<div class="circle">
+								<h1 class="display-3">VS</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h1 class="display-3 left">PRIVATE</h1>
+				</div>
+				<div class="clearfix"></div>
+				<hr class="hidden-md hidden-lg" />
+			</div>
+			<div class="col-lg-6 col-sm-12 purpleline-r">
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi [...]</p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-lg-2 col-sm-0 visible-lg">&nbsp;</div>
+			<div class="col-lg-2 col-sm-3 visible-lg">
+				<h1 class="display-3">PUBLIC</h1>
+			</div>
+			<div class="col-lg-3 col-sm-3 visible-lg">
+				<div class="parentcircle">
+					<div class="middlecircle">
+						<div class="circle">
+							<h1 class="display-3">VS</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-4 visible-lg">
+				<h1 class="display-3 left">PRIVATE</h1>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-lg-6 col-sm-0">&nbsp</div>
+			<div class="col-lg-6 col-sm-12 purpleline-l">
+				<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla [...]</p>
+			</div>
+		</div>	
+	</div>
+</div>
 <!-- Features -->
 <div class="row">
     <section class="features-hp">
+		<!--
         <h2 class="title-section">02_Features</h2>
         <h5 class="description-section">Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel.</h5>
+		-->
         <!-- 24/7 Support -->
-        <div class="col-lg-3 col-sm-3">
+        <div class="col-lg-6 col-sm-6">
             <div class="feature-block">
                 <i class="fa fa-support hp-block"></i>
                 <div class="fea-block">
-                    <h2>24/7 support</h2>
-                    <p>Trained, in-house experts are here to help 24/7. Our robust help center includes guides, video tutorials and more.
-                    </p>
+                    <h2>Expert Support</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
                 </div>
             </div>
         </div>
-        <!-- Money-back -->
-        <div class="col-lg-3 col-sm-3">
+		<!-- Break -->
+        <!-- <div class="col-lg-2 col-sm-0"></div> -->
+        <!-- Partner Focused -->
+        <div class="col-lg-6 col-sm-6">
             <div class="feature-block">
-                <i class="fa fa-money hp-block"></i>
+                <i class="fa fa-users hp-block"></i>
                 <div class="fea-block">
-                    <h2>Money-back</h2>
-                    <p>Try us and love us, or get a refund any time. You're never locked into a contract and there are no hidden fees or gimmicks.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- Over $150 in offers -->
-        <div class="col-lg-3 col-sm-3">
-            <div class="feature-block">
-                <i class="fa fa-gift hp-block"></i>
-                <div class="fea-block">
-                    <h2>Over $150 in offers</h2>
-                    <p>Leverage advertising offers from Google, Bing, and other leading sites to help grow your business - all included.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile Friendly -->
-        <div class="col-lg-3 col-sm-3">
-            <div class="feature-block">
-                <i class="fa fa-mobile-phone hp-block"></i>
-                <div class="fea-block">
-                    <h2>Mobile Friendly</h2>
-                    <p>Customers can access, manage and place orders from mobile, tablet or desktop thanks to a fully responsive frontend UI
-                    </p>
+                    <h2>Partner Focused</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
                 </div>
             </div>
         </div>
@@ -277,58 +310,8 @@
 <div class="clearfix"></div>
 <div class="row">
     <section class="clients-op">
-        <!-- Title -->
-        <div class="col-lg-4">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                <div class="custom panel panel-default">
-                    <div class="custom-head panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Can I add software to my account?
-          <span class="custom fa fa-plus-square"></span>
-        </a>
-      </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="custom panel-body">
-                            Yes. You have complete control over all aspects of your account, including the installation of software. If you install software not included in your hosting plan, we cannot guarantee its functionality and it will not be supported by our technical support staff. However, because we offer support for Perl, PHP, MySQL, and other programming languages, you have very few limitations when it comes to which software you can install. Finally, WestHost is constantly adding new and exciting software applications that can be installed automatically .
-                        </div>
-                    </div>
-                </div>
-                <div class="custom panel panel-default">
-                    <div class="custom-head panel-heading" role="tab" id="headingTwo">
-                        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          How much does additional bandwidth cost?
-          <span class="custom fa fa-plus-square"></span>
-        </a>
-      </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="custom panel-body">
-                            If you need additional bandwidth for your account you will need to upgrade to a larger plan. You can upgrade to a larger plan through your control panel at cp.westhost.com. The cost will depend upon the plan you select. You can also log into your control panel at any time to view your current bandwidth usage statistics.
-                        </div>
-                    </div>
-                </div>
-                <div class="custom panel panel-default">
-                    <div class="custom-head panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Can I upgrade my account if I need to?
-          <span class="custom fa fa-plus-square"></span>
-        </a>
-      </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="custom panel-body">
-                            Yes. You can upgrade your account at anytime. You will pay the difference between your current account and your new account. There are no extra fees involved in upgrading. You can upgrade your account by logging into your control panel.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Clients -->
-        <div class="col-lg-8">
+        <div class="col-lg-12">
             <div class="clients-rep">
                 <i class="fa fa-quote-left custom-hp"></i>
                 <div class="owl-carousel">
