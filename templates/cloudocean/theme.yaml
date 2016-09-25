@@ -1,0 +1,7 @@
+# WHMCS Cloud Ocean Theme Configuration File
+
+name: "WHMCS Cloud Ocean Theme"
+description: "Theme for WHMCS Version 6.3"
+author: "WHMCSDES.COM"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
