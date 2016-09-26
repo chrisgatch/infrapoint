@@ -132,11 +132,15 @@
 <!-- CountDown -->
 <script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/jquery.plugin.js"></script>
 <script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/jquery.countdown.js"></script>
-<script src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.js"></script>
-<script src="{$BASE_PATH_JS}/jquery-ui.min.js"></script>
-<script src="{$WEB_ROOT}/templates/{$template}/js/whmcs.js"></script>
-<script src="{$BASE_PATH_JS}/AjaxModal.js"></script>
-<script src="{$WEB_ROOT}/templates/{$template}/js/plugins.js"></script>
+<!--
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/jquery.scrollex.min.js"></script>
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/jquery.scrolly.min.js"></script>
+-->
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/bootstrap.js"></script>
+<script type="text/javascript" src="{$BASE_PATH_JS}/jquery-ui.min.js"></script>
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/whmcs.js"></script>
+<script type="text/javascript" src="{$BASE_PATH_JS}/AjaxModal.js"></script>
+<script type="text/javascript" src="{$WEB_ROOT}/templates/{$template}/js/plugins.js"></script>
 {$footeroutput}
 </body>
 
